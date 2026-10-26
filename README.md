@@ -1,26 +1,23 @@
 # agent-skills
 
-My collection of [Agent Skills](https://agentskills.io) — portable `SKILL.md` folders that work in Claude Code, Codex, and other agents that support the open standard.
+Agent skills I use for building stuff. Each folder is a portable [Agent Skill](https://agentskills.io) (`SKILL.md`) that works in Claude Code, Codex, and other agents that support the standard.
 
 ## Skills
 
 | Skill | What it does | Source |
 |---|---|---|
-| [`landing-page-design`](landing-page-design/SKILL.md) | End-to-end system for high-converting landing pages: intake, structure, copy, SEO, and strict visual rules | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) (MIT) |
+| [`landing-page-design`](landing-page-design/SKILL.md) | High-converting landing pages: intake, structure, copy, SEO, and strict visual rules | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) (MIT) |
 
-## Install
+## Setup
+
+This repo *is* the skills folder. Codex reads `~/.agents/skills` natively; Claude Code gets a single symlink.
 
 ```bash
-git clone https://github.com/annazayarova/agent-skills ~/Documents/agent-skills
-~/Documents/agent-skills/link.sh
+git clone https://github.com/annazayarova/agent-skills ~/.agents/skills
+ln -s ~/.agents/skills ~/.claude/skills
 ```
 
-`link.sh` symlinks every skill in this repo into:
-
-- `~/.claude/skills` — Claude Code
-- `~/.agents/skills` — Codex and other Agent Skills clients
-
-The skills live here; the agent folders only hold links. Edit a skill once and every agent picks it up. After adding a new skill folder, run `link.sh` again.
+New skill: drop a folder with a `SKILL.md` here, commit, push. Both agents see it right away.
 
 ## License
 

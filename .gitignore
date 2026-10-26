@@ -1,0 +1,6 @@
+# Third-party skills installed by other tools
+find-skills/
+
+# Files agents may write into this folder
+.system/
+.DS_Store
