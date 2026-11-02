@@ -1,3 +1,6 @@
 # Files agents may write into this folder
 .system/
 .DS_Store
+
+# Built-in skills synced by the Claude app (auto-updated, not mine)
+synced/
