@@ -27,7 +27,7 @@ Run several searches in parallel. Verify key facts against the primary source by
 - If nothing happened in the period, say so — don't stretch.
 
 ## 4. Save the brief
-File `competitive-brief-[competitor].md` in the project's `docs/` folder (if it doesn't exist, in the project root). Format:
+File `competitive-brief-[competitor].md` in the project's `docs/` folder (if the folder doesn't exist, create it). Format:
 
 ```markdown
 # Competitive brief: [competitor]
