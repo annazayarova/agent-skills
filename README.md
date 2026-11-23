@@ -8,6 +8,7 @@ Agent skills I use for building stuff. Each folder is a portable [Agent Skill](h
 |---|---|---|
 | [`landing-page-design`](landing-page-design/SKILL.md) | High-converting landing pages: intake, structure, copy, SEO, and strict visual rules | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) (MIT) |
 | [`competitor-brief`](competitor-brief/SKILL.md) | Short competitive brief: web search, fact-checking, impact on the current project's users | Own |
+| [`interview-notes`](interview-notes/SKILL.md) | Interview or meeting (Granola or pasted) → structured notes: process, pains, numbers, decisions, impact on the current project | Own |
 
 ## Setup
 
